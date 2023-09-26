@@ -6,15 +6,15 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 @main
 struct BarCrawlrV2App: App {
-    let persistenceController = PersistenceController.shared
-
+    @StateObject private var coreDataController = CoreDataController()
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environment(\.managedObjectContext, coreDataController.container.viewContext)
         }
     }
 }

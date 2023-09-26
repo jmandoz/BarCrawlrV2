@@ -11,8 +11,16 @@
 		4C2F33E728A99E03007A28B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2F33E628A99E03007A28B3 /* ContentView.swift */; };
 		4C2F33E928A99E03007A28B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C2F33E828A99E03007A28B3 /* Assets.xcassets */; };
 		4C2F33EC28A99E03007A28B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C2F33EB28A99E03007A28B3 /* Preview Assets.xcassets */; };
-		4C2F33EE28A99E03007A28B3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2F33ED28A99E03007A28B3 /* Persistence.swift */; };
-		4C2F33F128A99E03007A28B3 /* BarCrawlrV2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C2F33EF28A99E03007A28B3 /* BarCrawlrV2.xcdatamodeld */; };
+		4C2F33F828A9A09C007A28B3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2F33F728A9A09C007A28B3 /* HomeView.swift */; };
+		4C2F340528AD98B6007A28B3 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2F340428AD98B6007A28B3 /* TabBarView.swift */; };
+		4CD78AB42ABC854400D79667 /* BarViewObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD78AB32ABC854400D79667 /* BarViewObject.swift */; };
+		4CD78AB62ABC86E400D79667 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD78AB52ABC86E400D79667 /* HomeViewModel.swift */; };
+		4CD78ABA2ABC906200D79667 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD78AB92ABC906200D79667 /* NetworkController.swift */; };
+		4CD78ABF2ABC90E300D79667 /* YelpDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD78ABE2ABC90E300D79667 /* YelpDataModel.swift */; };
+		4CD78AC12ABCC8EE00D79667 /* LocationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD78AC02ABCC8EE00D79667 /* LocationClient.swift */; };
+		4CF3462628F3222400F48F76 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3462528F3222400F48F76 /* CoreDataController.swift */; };
+		4CF3462A28F3231500F48F76 /* User.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3462828F3231500F48F76 /* User.xcdatamodeld */; };
+		4CF3462C28F3335B00F48F76 /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3462B28F3335B00F48F76 /* MapAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +29,16 @@
 		4C2F33E628A99E03007A28B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C2F33E828A99E03007A28B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C2F33EB28A99E03007A28B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4C2F33ED28A99E03007A28B3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		4C2F33F028A99E03007A28B3 /* BarCrawlrV2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BarCrawlrV2.xcdatamodel; sourceTree = "<group>"; };
+		4C2F33F728A9A09C007A28B3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4C2F340428AD98B6007A28B3 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		4CD78AB32ABC854400D79667 /* BarViewObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarViewObject.swift; sourceTree = "<group>"; };
+		4CD78AB52ABC86E400D79667 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		4CD78AB92ABC906200D79667 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		4CD78ABE2ABC90E300D79667 /* YelpDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpDataModel.swift; sourceTree = "<group>"; };
+		4CD78AC02ABCC8EE00D79667 /* LocationClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationClient.swift; sourceTree = "<group>"; };
+		4CF3462528F3222400F48F76 /* CoreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
+		4CF3462928F3231500F48F76 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		4CF3462B28F3335B00F48F76 /* MapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +73,11 @@
 			children = (
 				4C2F33E428A99E03007A28B3 /* BarCrawlrV2App.swift */,
 				4C2F33E628A99E03007A28B3 /* ContentView.swift */,
+				4C2F33FA28A9A196007A28B3 /* model */,
+				4C2F33F928A9A190007A28B3 /* view */,
+				4CD78AB02ABC84A000D79667 /* viewModel */,
+				4CF3462228F3208300F48F76 /* dependencies */,
 				4C2F33E828A99E03007A28B3 /* Assets.xcassets */,
-				4C2F33ED28A99E03007A28B3 /* Persistence.swift */,
-				4C2F33EF28A99E03007A28B3 /* BarCrawlrV2.xcdatamodeld */,
 				4C2F33EA28A99E03007A28B3 /* Preview Content */,
 			);
 			path = BarCrawlrV2;
@@ -71,6 +89,124 @@
 				4C2F33EB28A99E03007A28B3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C2F33F928A9A190007A28B3 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4CD78AB82ABC871C00D79667 /* home */,
+				4C2F340328AD98A2007A28B3 /* tabBar */,
+				4CD78AB72ABC871400D79667 /* mapAnnotation */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4C2F33FA28A9A196007A28B3 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4CD78AB22ABC851400D79667 /* bar */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4C2F340328AD98A2007A28B3 /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				4C2F340428AD98B6007A28B3 /* TabBarView.swift */,
+			);
+			path = tabBar;
+			sourceTree = "<group>";
+		};
+		4CD78AB02ABC84A000D79667 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4CD78AB12ABC84CB00D79667 /* home */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		4CD78AB12ABC84CB00D79667 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				4CD78AB52ABC86E400D79667 /* HomeViewModel.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		4CD78AB22ABC851400D79667 /* bar */ = {
+			isa = PBXGroup;
+			children = (
+				4CD78AB32ABC854400D79667 /* BarViewObject.swift */,
+			);
+			path = bar;
+			sourceTree = "<group>";
+		};
+		4CD78AB72ABC871400D79667 /* mapAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				4CF3462B28F3335B00F48F76 /* MapAnnotation.swift */,
+			);
+			path = mapAnnotation;
+			sourceTree = "<group>";
+		};
+		4CD78AB82ABC871C00D79667 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				4C2F33F728A9A09C007A28B3 /* HomeView.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		4CD78ABB2ABC906600D79667 /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				4CD78ABD2ABC90CD00D79667 /* yelpData */,
+				4CD78AB92ABC906200D79667 /* NetworkController.swift */,
+			);
+			path = networking;
+			sourceTree = "<group>";
+		};
+		4CD78ABC2ABC906C00D79667 /* coreData */ = {
+			isa = PBXGroup;
+			children = (
+				4CF3462528F3222400F48F76 /* CoreDataController.swift */,
+			);
+			path = coreData;
+			sourceTree = "<group>";
+		};
+		4CD78ABD2ABC90CD00D79667 /* yelpData */ = {
+			isa = PBXGroup;
+			children = (
+				4CD78ABE2ABC90E300D79667 /* YelpDataModel.swift */,
+			);
+			path = yelpData;
+			sourceTree = "<group>";
+		};
+		4CD78AC22ABCC9F200D79667 /* locationClient */ = {
+			isa = PBXGroup;
+			children = (
+				4CD78AC02ABCC8EE00D79667 /* LocationClient.swift */,
+			);
+			path = locationClient;
+			sourceTree = "<group>";
+		};
+		4CF3462228F3208300F48F76 /* dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				4CD78ABC2ABC906C00D79667 /* coreData */,
+				4CF3462728F3230A00F48F76 /* userDataModel */,
+				4CD78ABB2ABC906600D79667 /* networking */,
+				4CD78AC22ABCC9F200D79667 /* locationClient */,
+			);
+			path = dependencies;
+			sourceTree = "<group>";
+		};
+		4CF3462728F3230A00F48F76 /* userDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				4CF3462828F3231500F48F76 /* User.xcdatamodeld */,
+			);
+			path = userDataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +279,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C2F33F128A99E03007A28B3 /* BarCrawlrV2.xcdatamodeld in Sources */,
-				4C2F33EE28A99E03007A28B3 /* Persistence.swift in Sources */,
+				4CD78ABA2ABC906200D79667 /* NetworkController.swift in Sources */,
 				4C2F33E728A99E03007A28B3 /* ContentView.swift in Sources */,
+				4CD78AB62ABC86E400D79667 /* HomeViewModel.swift in Sources */,
+				4C2F33F828A9A09C007A28B3 /* HomeView.swift in Sources */,
+				4CF3462C28F3335B00F48F76 /* MapAnnotation.swift in Sources */,
+				4C2F340528AD98B6007A28B3 /* TabBarView.swift in Sources */,
 				4C2F33E528A99E03007A28B3 /* BarCrawlrV2App.swift in Sources */,
+				4CD78AB42ABC854400D79667 /* BarViewObject.swift in Sources */,
+				4CD78AC12ABCC8EE00D79667 /* LocationClient.swift in Sources */,
+				4CF3462A28F3231500F48F76 /* User.xcdatamodeld in Sources */,
+				4CD78ABF2ABC90E300D79667 /* YelpDataModel.swift in Sources */,
+				4CF3462628F3222400F48F76 /* CoreDataController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +422,8 @@
 				DEVELOPMENT_TEAM = 3ZLX8VSJT3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We use your location to find bars near you";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to find bars near you";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +453,8 @@
 				DEVELOPMENT_TEAM = 3ZLX8VSJT3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We use your location to find bars near you";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to find bars near you";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -349,13 +497,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		4C2F33EF28A99E03007A28B3 /* BarCrawlrV2.xcdatamodeld */ = {
+		4CF3462828F3231500F48F76 /* User.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				4C2F33F028A99E03007A28B3 /* BarCrawlrV2.xcdatamodel */,
+				4CF3462928F3231500F48F76 /* Model.xcdatamodel */,
 			);
-			currentVersion = 4C2F33F028A99E03007A28B3 /* BarCrawlrV2.xcdatamodel */;
-			path = BarCrawlrV2.xcdatamodeld;
+			currentVersion = 4CF3462928F3231500F48F76 /* Model.xcdatamodel */;
+			path = User.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
