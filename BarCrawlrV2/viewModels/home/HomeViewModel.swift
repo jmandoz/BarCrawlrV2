@@ -13,6 +13,8 @@ class HomeViewModel: ObservableObject {
     @Published var selectedBar: BarViewObject?
     @Published var localBars: [BarViewObject] = []
     
+    @Published var firstLoad: Bool = false
+    
     @MainActor
     func fetchLocalBars() async {
         let location = locationClient.getCurrentLocationCoordinates()

@@ -39,7 +39,8 @@ struct Bar: Codable {
         return .init(name: self.name,
                      address: self.address.physicalAddress ?? "",
                      location: .init(latitude: lat, longitude: long),
-                     rating: self.rating)
+                     rating: self.rating,
+                     imageURL: self.imageURL)
     }
 }
 

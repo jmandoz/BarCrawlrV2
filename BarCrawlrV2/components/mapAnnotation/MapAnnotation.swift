@@ -55,6 +55,6 @@ struct MapAnnotationView: View {
 
 struct MapAnnotationView_Previews: PreviewProvider {
     static var previews: some View {
-        MapAnnotationView(bar: .init(name: "Dummy bar", address: "1 people place", location: .init(latitude: 42.4077573349121, longitude: -71.10387436973836), rating: 5), didTapAnnotation: { print("tapped") })
+        MapAnnotationView(bar: .init(name: "Dummy bar", address: "1 people place", location: .init(latitude: 42.4077573349121, longitude: -71.10387436973836), rating: 5, imageURL: nil), didTapAnnotation: { print("tapped") })
     }
 }

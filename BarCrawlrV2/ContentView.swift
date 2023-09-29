@@ -10,8 +10,17 @@ import CoreData
 
 struct ContentView: View {
     var body: some View {
-        HStack {
+        TabView {
             HomeView()
+                .tabItem {
+                    Label("Home", image: "home")
+                        .frame(width: 20, height: 20)
+                }
+            UserProfileView()
+                .tabItem {
+                    Label("Profile", image: "user")
+                        .frame(width: 20, height: 20)
+                }
         }
     }
 }

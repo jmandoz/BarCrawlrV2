@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C2B0FA12AC5EDA800A6BD73 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B0FA02AC5EDA800A6BD73 /* UserProfileView.swift */; };
 		4C2F33E528A99E03007A28B3 /* BarCrawlrV2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2F33E428A99E03007A28B3 /* BarCrawlrV2App.swift */; };
 		4C2F33E728A99E03007A28B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2F33E628A99E03007A28B3 /* ContentView.swift */; };
 		4C2F33E928A99E03007A28B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C2F33E828A99E03007A28B3 /* Assets.xcassets */; };
 		4C2F33EC28A99E03007A28B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C2F33EB28A99E03007A28B3 /* Preview Assets.xcassets */; };
 		4C2F33F828A9A09C007A28B3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2F33F728A9A09C007A28B3 /* HomeView.swift */; };
-		4C2F340528AD98B6007A28B3 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2F340428AD98B6007A28B3 /* TabBarView.swift */; };
 		4CD78AB42ABC854400D79667 /* BarViewObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD78AB32ABC854400D79667 /* BarViewObject.swift */; };
 		4CD78AB62ABC86E400D79667 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD78AB52ABC86E400D79667 /* HomeViewModel.swift */; };
 		4CD78ABA2ABC906200D79667 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD78AB92ABC906200D79667 /* NetworkController.swift */; };
@@ -24,13 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C2B0FA02AC5EDA800A6BD73 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 		4C2F33E128A99E03007A28B3 /* BarCrawlrV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarCrawlrV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C2F33E428A99E03007A28B3 /* BarCrawlrV2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCrawlrV2App.swift; sourceTree = "<group>"; };
 		4C2F33E628A99E03007A28B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C2F33E828A99E03007A28B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C2F33EB28A99E03007A28B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4C2F33F728A9A09C007A28B3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		4C2F340428AD98B6007A28B3 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		4CD78AB32ABC854400D79667 /* BarViewObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarViewObject.swift; sourceTree = "<group>"; };
 		4CD78AB52ABC86E400D79667 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		4CD78AB92ABC906200D79667 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
@@ -52,6 +52,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C2B0F9F2AC5ED3C00A6BD73 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				4CD78AB72ABC871400D79667 /* mapAnnotation */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		4C2B0FA22AC5EDD400A6BD73 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				4C2B0FA02AC5EDA800A6BD73 /* UserProfileView.swift */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
 		4C2F33D828A99E02007A28B3 = {
 			isa = PBXGroup;
 			children = (
@@ -73,9 +89,10 @@
 			children = (
 				4C2F33E428A99E03007A28B3 /* BarCrawlrV2App.swift */,
 				4C2F33E628A99E03007A28B3 /* ContentView.swift */,
-				4C2F33FA28A9A196007A28B3 /* model */,
-				4C2F33F928A9A190007A28B3 /* view */,
-				4CD78AB02ABC84A000D79667 /* viewModel */,
+				4C2F33FA28A9A196007A28B3 /* models */,
+				4C2F33F928A9A190007A28B3 /* views */,
+				4CD78AB02ABC84A000D79667 /* viewModels */,
+				4C2B0F9F2AC5ED3C00A6BD73 /* components */,
 				4CF3462228F3208300F48F76 /* dependencies */,
 				4C2F33E828A99E03007A28B3 /* Assets.xcassets */,
 				4C2F33EA28A99E03007A28B3 /* Preview Content */,
@@ -91,38 +108,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4C2F33F928A9A190007A28B3 /* view */ = {
+		4C2F33F928A9A190007A28B3 /* views */ = {
 			isa = PBXGroup;
 			children = (
 				4CD78AB82ABC871C00D79667 /* home */,
-				4C2F340328AD98A2007A28B3 /* tabBar */,
-				4CD78AB72ABC871400D79667 /* mapAnnotation */,
+				4C2B0FA22AC5EDD400A6BD73 /* profile */,
 			);
-			path = view;
+			path = views;
 			sourceTree = "<group>";
 		};
-		4C2F33FA28A9A196007A28B3 /* model */ = {
+		4C2F33FA28A9A196007A28B3 /* models */ = {
 			isa = PBXGroup;
 			children = (
 				4CD78AB22ABC851400D79667 /* bar */,
 			);
-			path = model;
+			path = models;
 			sourceTree = "<group>";
 		};
-		4C2F340328AD98A2007A28B3 /* tabBar */ = {
-			isa = PBXGroup;
-			children = (
-				4C2F340428AD98B6007A28B3 /* TabBarView.swift */,
-			);
-			path = tabBar;
-			sourceTree = "<group>";
-		};
-		4CD78AB02ABC84A000D79667 /* viewModel */ = {
+		4CD78AB02ABC84A000D79667 /* viewModels */ = {
 			isa = PBXGroup;
 			children = (
 				4CD78AB12ABC84CB00D79667 /* home */,
 			);
-			path = viewModel;
+			path = viewModels;
 			sourceTree = "<group>";
 		};
 		4CD78AB12ABC84CB00D79667 /* home */ = {
@@ -284,9 +292,9 @@
 				4CD78AB62ABC86E400D79667 /* HomeViewModel.swift in Sources */,
 				4C2F33F828A9A09C007A28B3 /* HomeView.swift in Sources */,
 				4CF3462C28F3335B00F48F76 /* MapAnnotation.swift in Sources */,
-				4C2F340528AD98B6007A28B3 /* TabBarView.swift in Sources */,
 				4C2F33E528A99E03007A28B3 /* BarCrawlrV2App.swift in Sources */,
 				4CD78AB42ABC854400D79667 /* BarViewObject.swift in Sources */,
+				4C2B0FA12AC5EDA800A6BD73 /* UserProfileView.swift in Sources */,
 				4CD78AC12ABCC8EE00D79667 /* LocationClient.swift in Sources */,
 				4CF3462A28F3231500F48F76 /* User.xcdatamodeld in Sources */,
 				4CD78ABF2ABC90E300D79667 /* YelpDataModel.swift in Sources */,

@@ -16,6 +16,8 @@ struct BarViewObject: Identifiable, Equatable {
     let isSelected: Bool = false
     let rating: Float
     
+    let imageURL: String?
+    
     static func == (lhs: BarViewObject, rhs: BarViewObject) -> Bool {
         lhs.id == rhs.id
     }
